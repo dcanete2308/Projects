@@ -1,0 +1,25 @@
+{
+	"name" : "didac/entradas",
+	"description" : "Generacion entradas",
+	"type" : "project",
+	"require" : {
+		"doctrine/orm" : "^3",
+		"doctrine/dbal" : "^4",
+		"symfony/cache" : "^7",
+		"mpdf/mpdf" : "^8.2",
+		"mpdf/qrcode" : "^1.2"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Entradas\\Entity\\" : "src/Entity",
+			"Entradas\\Controller\\" : "src/Controller",
+			"Entradas\\Repository\\" : "src/Repository",
+			"Entradas\\Vista\\" : "src/Vista",
+			"Entradas\\Core\\" : "src/Core"
+		}
+	},
+	"authors" : [{
+			"name" : "Didac"
+		}
+	]
+}
