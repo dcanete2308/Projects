@@ -1,0 +1,75 @@
+.msg {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.titol {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.llistaMissatges {
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+}
+
+.missatge {
+    margin: 8px 0;
+    padding: 10px 14px;
+    max-width: 80%;
+    border-radius: 12px;
+    word-wrap: break-word;
+}
+
+.jo {
+    align-self: flex-end;
+    text-align: right;
+    background-color: #e0f0ff;
+    color: #0077cc;
+    margin-left: auto;
+}
+
+.altre {
+    align-self: flex-start;
+    text-align: left;
+    background-color: #eaeaea;
+    color: #333;
+    margin-right: auto;
+}
+
+.formulari {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.boto {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: rgb(204, 116, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}

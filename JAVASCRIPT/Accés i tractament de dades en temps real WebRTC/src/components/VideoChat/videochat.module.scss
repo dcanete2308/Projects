@@ -1,0 +1,61 @@
+.video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.videolocal, .videoremoto {
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.videolocal:hover, .videoremoto:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.videolocal {
+  width: 640px;
+  height: 480px;
+}
+
+.videoremoto {
+  width: 640px;
+  height: 480px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(204, 116, 0);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: rgb(204, 116, 0);
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #caa45d;
+  cursor: not-allowed;
+}

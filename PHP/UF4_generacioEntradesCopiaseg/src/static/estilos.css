@@ -1,0 +1,113 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.entrada-container {
+	max-width: 750px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	font-size: 12px;
+}
+
+.entrada-header {
+	background: #0056b3;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.entrada-contenido {
+	display: flex;
+	padding: 15px;
+	gap: 15px;
+}
+
+.entrada-img {
+	height: 10px;
+}
+
+.entrada-img img {
+	width: 90%;
+	height: 10px;
+}
+
+.datos {
+	flex: 1;
+}
+
+h1 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: #0056b3;
+}
+
+.entradaDatos {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+.entradaDatos strong {
+	width: 100px;
+	font-weight: bold;
+	color: #444;
+}
+
+.entradaDatos span {
+	flex: 1;
+}
+
+.entradaSeccion {
+	margin-bottom: 10px;
+}
+
+.codigos {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background: #f0f0f0;
+	border-top: 1px dashed #ccc;
+}
+
+.codigoCont {
+	flex: 0 0 48%;
+	text-align: center;
+	padding: 10px;
+	background: #fff;
+	border-radius: 4px;
+	font-size: 11px;
+}
+
+.codigoCont h3 {
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    color: #666;
+    background: #fafafa;
+    border-top: 1px solid #ddd;
+}
+
+.footerLogo {
+    width: 100px;  
+    height: auto;
+    margin-bottom: 10px;  
+}
+
+.highlight {
+	padding: 2px 4px;
+	border-radius: 3px;
+	color: #e01b24;
+}
